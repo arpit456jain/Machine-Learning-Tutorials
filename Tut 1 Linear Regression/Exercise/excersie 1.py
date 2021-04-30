@@ -4,13 +4,14 @@ from sklearn import linear_model
 from matplotlib import pyplot as plt
 from sklearn.metrics import mean_squared_error
 
-dataset = pd.read_csv("..//ML/1_linear_reg/Exercise/canada_per_capita_income.csv")
+dataset = pd.read_csv("canada_per_capita_income.csv")
 dataset = dataset
 print(dataset,type(dataset))
 
 dataTrainX = dataset[['year']]
 datatrainY = dataset['income']
 print(dataTrainX,datatrainY)
+
 # lets plot a scatter plot
 plt.scatter(dataTrainX,datatrainY,color="red",marker='+')
 plt.xlabel("year")
