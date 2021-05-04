@@ -1,14 +1,22 @@
-name: "PR Greeter"
-on: [pull_request, issues]
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
 
 jobs:
-  pr-greeter:
+  greeting:
     runs-on: ubuntu-latest
     steps:
-      - name: "Greeter"
-        uses: JJ/pr-greeting-action@releases/v1
-        with:
-         repo-token: ${{ secrets.GITHUB_TOKEN }}
-         issue-message: 'Thanks for opening an issue waiting for a contributor like you😁😁'
-         pr-message: 'Thanks for opening a PR I will review it soon 😃😃'
-
+    - uses: Karthik-Nayak98/Greeting-action@main
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: 'Hello @${{github.actor}}, <br>
+                        Thank you for opening an issue. :partying_face: <br>
+                        To get assigned to this particular issue please wait for <b>maintainers</b><br>
+                        <i> Check this <a href="https://github.com/vikasdo/Book-Recommendation-Analysis#readme">guide</a> before contributing.'
+        PR_message:
+                      '<h1> :partying_face: Congratulations :tada: </h1>:pray:
+                      Thank you @${{github.actor}} for taking out your time and contributing to our project. Our team will now review this and if everything looks good it will be merged.'
