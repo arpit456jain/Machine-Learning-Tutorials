@@ -1,27 +1,21 @@
-<!--
-Thank you for sending the PR! We appreciate you spending the time to work on these changes.
+(Thanks for sending a pull request! Please make sure you click the link above to view the contribution guidelines, then fill out the blanks below.)
 
-Help us understand your motivation by explaining why you decided to make this change.
-You can learn more about contributing to NeoAlgo here: https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTING.md
+### What does this implement/fix? Explain your changes.
 
-Happy Contributing!
 
--->
+### Does this close any currently open issues?
+<!-- Uncomment any one the lines below as per your pull request -->
+<!-- Fixes # (issue)  - use this if your pull request solves the issue completely-->
+<!-- Addresses # (issue)  - use this if your pull request solves only a part of the issue-->
 
-### Have you read the [Contributing Guidelines on Pull Requests](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTING.md#pull-requests)?
+### How did you test your changes?
+<!-- Add relevant screenshot or screen recordings here -->
 
-(Write your answer here.)
+### Any relevant logs, error output, etc?
+(If it’s long, please paste to https://ghostbin.com/ and insert the link here.)
 
-### Description
+### Any other comments?
+....
 
-(Write your answer here.)
 
-### Checklist
 
-- [ ] I've read the contribution guidelines.
-- [ ] I've checked the issue list before deciding what to submit.
-- [ ] I've edited the `README.md` and link to my code.
-
-## Related Issues or Pull Requests
-
-(Write your answer here.)
