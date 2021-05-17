@@ -22,3 +22,4 @@ jobs:
           days_until_warning: 5
           days_until_unassign: 7
           stale_assignment_label: Open
+          assigned_comment: hi
